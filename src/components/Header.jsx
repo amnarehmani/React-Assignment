@@ -8,7 +8,7 @@ const Header = () => {
   const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-10 shadow-md">
+    <header className="w-full z-10 shadow-md">
       <div className="container mx-auto flex items-center justify-between py-6 px-6">
         <div className="flex items-center gap-2">
         <h1 className="text-white font-extrabold text-[23px] font-playfair">HomeVibe</h1>
